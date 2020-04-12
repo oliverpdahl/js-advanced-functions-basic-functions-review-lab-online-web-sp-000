@@ -28,7 +28,7 @@ const Calculator = {
   }
 }
 
-function actionApplier(start, arrayOfActions){
+function actionApplyerr(start, arrayOfActions){
   if(arrayOfActions) {
     
   } else {
