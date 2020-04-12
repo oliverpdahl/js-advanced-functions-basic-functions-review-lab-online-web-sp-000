@@ -29,7 +29,7 @@ const Calculator = {
 }
 
 function actionApplyer(start, arrayOfActions){
-   for(const action in arrayOfActions){
+   for(const action of arrayOfActions){
      start = action(start)
    } 
    return start
