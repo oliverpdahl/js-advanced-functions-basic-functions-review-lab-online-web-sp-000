@@ -29,7 +29,7 @@ const Calculator = {
 }
 
 function actionApplyer(start, arrayOfActions){
-  if(arrayOfActions === []) {
+  if(arrayOfActions == []) {
     return start
   } else {
     
