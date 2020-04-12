@@ -32,6 +32,6 @@ function actionApplyer(start, arrayOfActions){
   if(arrayOfActions === []) {
     return start
   } else {
-    return start
+    
   }
 }
