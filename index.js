@@ -16,5 +16,9 @@ function wrapAdjective(flair = "*"){
 const Calculator = {
   add: function(num1, num2){
     return num1 + num2
+  },
+  subtract: function (n, m){
+    return n - m
   }
+  
 }
