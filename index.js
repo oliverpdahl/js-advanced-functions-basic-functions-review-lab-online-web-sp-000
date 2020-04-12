@@ -12,3 +12,9 @@ function wrapAdjective(flair = "*"){
     return `You are ${flair}${wish}${flair}!`
   }
 }
+
+const Calculator = {
+  function add(){
+    
+  }
+}
