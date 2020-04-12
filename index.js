@@ -19,6 +19,8 @@ const Calculator = {
   },
   subtract: function (n, m){
     return n - m
+  },
+  multiply: function(n, m){
+    return n * m
   }
-  
 }
