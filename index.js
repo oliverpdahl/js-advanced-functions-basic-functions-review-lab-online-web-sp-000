@@ -22,5 +22,8 @@ const Calculator = {
   },
   multiply: function(n, m){
     return n * m
+  },
+  divide: function(n, m){
+    n/m
   }
 }
