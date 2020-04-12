@@ -29,8 +29,8 @@ const Calculator = {
 }
 
 function actionApplyer(start, arrayOfActions){
-  if(arrayOfActions.length === 0){
-    return start
-  }
-  
+   for(const action in arrayOfActions){
+     start = action(start)
+   } 
+   return start
 }
