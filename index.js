@@ -27,3 +27,11 @@ const Calculator = {
     return n/m
   }
 }
+
+function actionApplier(start, arrayOfActions){
+  if arrayOfActions {
+    
+  } else {
+    return start
+  }
+}
